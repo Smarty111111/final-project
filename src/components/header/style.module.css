@@ -1,0 +1,30 @@
+.container {
+  background-color: darkseagreen;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.navBar {
+  width: 700px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.link:hover {
+  color: red;
+}
+
+.link:active {
+  font-weight: 400;
+  color: yellow;
+  background-color: blue;
+}
